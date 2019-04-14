@@ -1,0 +1,157 @@
+
+body {
+	font-family: 'PT Sans Caption', sans-serif;
+	padding-bottom: 20px;
+	color:#f5fae4;
+	background-color: ##e91e63;
+	width: 100%;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+a:hover {
+	text-decoration: none!important;
+	color:#f5fae4!important; 
+}
+.menu {
+	padding: 17px 0;
+	
+}
+
+.menu__item{
+font-weight: 700;
+font-size: 17px;
+}
+
+.menu__item a{
+        cursor: pointer;
+        font-size: 26px;
+        font-weight: 700;
+        font-style: italic;
+        color:#f5fae4;
+        text-transform: capitalize;
+        margin: 0 15px;
+    }
+
+.telephone {
+	cursor: pointer;
+	font-size: 20px;
+	color:#f5fae4;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+.main-header {
+	padding: 22px 0 13px 0;
+	background-color: #82b056;
+}
+
+
+.carousel-control-next, .carousel-control-prev  {
+    display: none!important;
+  }
+
+.slider-top .container {
+	max-width: 100%;  
+}
+
+.carousel,
+.carousel-inner,
+.carousel-inner .item,
+.carousel-inner img {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-block {
+    width: 512px;
+    height: 581px;
+    background-color: rgba(108, 106, 90, 0.55);
+    border: 1px solid #919194;
+    bottom: unset;
+    top: 35%;
+    left: 5%;
+    padding-top: 86px;
+    padding-bottom: 89px;
+    position: absolute;
+}
+
+.carousel-block h3 {
+      text-transform: uppercase;
+      font-size: 34px;
+      font-weight: 700;
+      padding: 20px 0;
+      color:#f5fae4;
+      text-align: center;
+    }
+
+.order {
+    width: 380px;
+    height: 90px;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+    background-color: #fe7b37;
+    border: 1px solid #919194;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-left: 65px;
+}
+
+.slider-top .carousel-indicators {
+    bottom: -55px;
+}
+
+.slider-top .carousel-indicators li {
+    width: 22px;
+    margin: auto 15px;
+    background: #84b059;
+    border-radius: 50%;
+}
+
+.about {
+	padding-top: 50px;
+	margin-top: 8vh;
+	margin-bottom: 18vh;
+
+}
+
+.about h3 {
+    color: #fe7b37;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+
+.delivery .container {
+    max-width: 100%;
+    width: 100%;
+  }
+
+.delivery {
+    padding: 36vh 0 30vw 0;
+    background-color: #82b056;
+}
+
+.delivery-photo-parent {
+	padding-left: 0;
+}
+
+.delivery__photo {
+	position:relative;
+	border:1px solid red;
+	width:200px;
+	height:150px;
+}
+
+.delivery__photo img {
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
